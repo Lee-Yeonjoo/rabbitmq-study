@@ -1,3 +1,4 @@
+/*
 package study.hellomessagequeue.step0;
 
 import org.springframework.stereotype.Component;
@@ -10,3 +11,4 @@ public class Receiver {  //컨슈머 역할
         System.out.println("[#] Received: " + message);
     }
 }
+*/

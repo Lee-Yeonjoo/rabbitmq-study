@@ -1,3 +1,4 @@
+/*
 package study.hellomessagequeue.step0;
 
 import org.springframework.web.bind.annotation.PostMapping;
@@ -21,3 +22,4 @@ public class MessageController {
         return "Message sent successfully! " + message;
     }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 package study.hellomessagequeue.step0;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
@@ -17,3 +18,4 @@ public class Sender {  //메시지를 RabbitTemplate을 통해 발행하는 역�
         System.out.println("[#] Sent : " + message);
     }
 }
+*/
