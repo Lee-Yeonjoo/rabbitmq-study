@@ -1,3 +1,4 @@
+/*
 package study.hellomessagequeue.step7;
 
 import org.springframework.amqp.core.AcknowledgeMode;
@@ -18,3 +19,4 @@ public class RabbitMQManualConfig {
         return factory;
     }
 }
+*/

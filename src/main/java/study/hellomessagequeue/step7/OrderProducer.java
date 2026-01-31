@@ -1,3 +1,4 @@
+/*
 package study.hellomessagequeue.step7;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
@@ -22,3 +23,4 @@ public class OrderProducer {
         System.out.println("[주문 완료. 배송 지시 메시지 생성 : " + message + "]");
     }
 }
+*/

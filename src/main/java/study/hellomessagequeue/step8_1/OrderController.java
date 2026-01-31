@@ -1,11 +1,7 @@
-/*
-package study.hellomessagequeue.step7;
+package study.hellomessagequeue.step8_1;
 
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/order")
@@ -17,11 +13,10 @@ public class OrderController {
         this.orderProducer = orderProducer;
     }
 
-
     @GetMapping
     public ResponseEntity<String> sendOrderMessage(@RequestParam String message) {
+
         orderProducer.sendShipping(message);
         return ResponseEntity.ok("Order Completed Message sent: " + message);
     }
 }
-*/

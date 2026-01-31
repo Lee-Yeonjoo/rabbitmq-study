@@ -1,3 +1,4 @@
+/*
 package study.hellomessagequeue.step7;
 
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
@@ -34,3 +35,4 @@ public class OrderDLQConsumer {
         }
     }
 }
+*/

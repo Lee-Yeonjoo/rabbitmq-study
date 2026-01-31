@@ -1,3 +1,4 @@
+/*
 package study.hellomessagequeue.step7;
 
 import org.springframework.amqp.core.*;
@@ -55,3 +56,4 @@ public class RabbitMQConfig {
                 .with(DLQ);
     }
 }
+*/

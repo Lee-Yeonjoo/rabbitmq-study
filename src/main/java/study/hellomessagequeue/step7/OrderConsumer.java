@@ -1,3 +1,4 @@
+/*
 package study.hellomessagequeue.step7;
 
 import com.rabbitmq.client.Channel;
@@ -44,3 +45,4 @@ public class OrderConsumer {
         }
     }
 }
+*/
