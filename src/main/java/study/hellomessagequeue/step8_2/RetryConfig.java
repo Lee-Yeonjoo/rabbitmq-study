@@ -1,5 +1,4 @@
-/*
-package study.hellomessagequeue.step8_1;
+package study.hellomessagequeue.step8_2;
 
 
 import org.springframework.context.annotation.Bean;
@@ -24,4 +23,3 @@ public class RetryConfig {
         return retryTemplate;
     }
 }
-*/

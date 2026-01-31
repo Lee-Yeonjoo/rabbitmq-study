@@ -1,5 +1,4 @@
-/*
-package study.hellomessagequeue.step8_1;
+package study.hellomessagequeue.step8_2;
 
 import org.springframework.amqp.core.*;
 import org.springframework.context.annotation.Bean;
@@ -54,4 +53,4 @@ public class RabbitMQConfig {
         return BindingBuilder.bind(deadLetterQueue()).to(deadLetterExchange()).with(DEAD_LETTER_ROUTING_KEY);
     }
 
-}*/
+}

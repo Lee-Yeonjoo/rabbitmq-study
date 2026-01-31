@@ -1,19 +1,16 @@
-/*
-package study.hellomessagequeue.step8_1;
+package study.hellomessagequeue.step8_2;
 
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Component;
 
-*/
 /**
  * 데드레터로 들어온 메시지를 Requeue 한다.
  *
  * @author : codevillain
  * @fileName : OrderDeadLetterRetry
  * @since : 12/26/24
- *//*
-
+ */
 @Component
 public class OrderDeadLetterRetry {
 
@@ -46,4 +43,4 @@ public class OrderDeadLetterRetry {
             System.err.println("[DLQ] Failed to reprocess message: " + e.getMessage());
         }
     }
-}*/
+}

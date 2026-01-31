@@ -1,5 +1,4 @@
-/*
-package study.hellomessagequeue.step8_1;
+package study.hellomessagequeue.step8_2;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Component;
@@ -17,4 +16,3 @@ public class OrderProducer {
         System.out.println("[주문 완료. 배송 지시 메시지 생성 : " + message + "]");
     }
 }
-*/
